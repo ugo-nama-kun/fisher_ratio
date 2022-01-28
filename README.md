@@ -14,6 +14,9 @@ Fisher ratio in a DNN work: https://arxiv.org/pdf/2012.10424.pdf
 # Trace of Fisher ratio
 Trace of the Fisher ratio $Tr(inv(within-class_covariance) * between-class_covariance) / n_class$ can quantitively measure the distribution of distributions with class labels.  
 
+## Various number of classes and variance
 ![movie_fisher2](https://user-images.githubusercontent.com/1684732/151509620-29e52e4c-dfb3-43fa-9a82-6ca9b80fd3fd.gif)
 ![movie_fisher4](https://user-images.githubusercontent.com/1684732/151509629-9c6da500-3910-4632-bd47-758ad2c81734.gif)
 
+## Various positions of class means
+![movie_fisher4_mean](https://user-images.githubusercontent.com/1684732/151520028-75c5a37e-c8d6-44b4-8217-6d7c3b691973.gif)
