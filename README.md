@@ -11,3 +11,9 @@ Fisher ratio in a DNN work: https://arxiv.org/pdf/2012.10424.pdf
 ## LDA embedding of the CNN hidden representation
 ![movie](https://user-images.githubusercontent.com/1684732/151492496-151e9e1d-4442-4299-8ade-32d6f9e42305.gif)
 
+# Trace of Fisher ratio
+Trace of the Fisher ratio $Tr(inv(within-class_covariance) * between-class_covariance) / n_class$ can quantitively measure the distribution of distributions with class labels.  
+
+![movie_fisher2](https://user-images.githubusercontent.com/1684732/151509620-29e52e4c-dfb3-43fa-9a82-6ca9b80fd3fd.gif)
+![movie_fisher4](https://user-images.githubusercontent.com/1684732/151509629-9c6da500-3910-4632-bd47-758ad2c81734.gif)
+
